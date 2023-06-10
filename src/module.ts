@@ -303,11 +303,11 @@ export default defineNuxtModule<NuxtI18nOptions>({
      */
 
     // for pre-compile
-    addServerHandler({
-      method: 'post',
-      route: NUXT_I18N_PRECOMPILE_ENDPOINT,
-      handler: resolve(runtimeDir, './server/precompile')
-    })
+    // addServerHandler({
+    //   method: 'post',
+    //   route: NUXT_I18N_PRECOMPILE_ENDPOINT,
+    //   handler: resolve(runtimeDir, './server/precompile')
+    // })
 
     // for prerender
     addServerHandler({
